@@ -1,0 +1,11 @@
+user:
+  name: ishikki
+  github: ishikki-akabane
+
+python_version: "3.11"
+
+commands:
+  build:
+    - "pip3 install -r installer.txt"
+  start:
+    - "python3 index.py"
