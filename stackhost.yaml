@@ -6,6 +6,6 @@ python_version: "3.11"
 
 commands:
   build:
-    - "pip3 install -r installer.txt"
+    - "pip3 install -r requirements.txt"
   start:
     - "python3 index.py"
