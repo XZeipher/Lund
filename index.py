@@ -10,7 +10,7 @@ app = Client(
     bot_token="7960951037:AAHd0KUC59z0_B4i6W5AwIfjlb0VqLSHX-k",
 )
 
-@app.on_message(filters.command("start") && filters.private)
+@app.on_message(filters.command("start") & filters.private)
 async def start(client,message):
     return await message.reply_animation("https://porngifmag.com/content/2017/02/porn-gif-magazine-italiansd0itbetter-2.gif",caption="**FUCKING KCAK HARD CORE**")
 
